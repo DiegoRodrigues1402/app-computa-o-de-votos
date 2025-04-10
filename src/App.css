@@ -1,0 +1,222 @@
+.container{
+    max-width: 900px;
+    margin: 15px auto 30px auto;
+    overflow: auto;
+    border: 2px solid #fff212;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
+}
+/* Esconde o container */
+.d-none {
+  display: none;
+}
+
+/* Exibe o container como block */
+.d-block {
+  display: block;
+}
+
+/* Container Campeão com animação de fogos de artifício */
+.container-campeao {
+  display: flex; /* Ativa o Flexbox */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Definir a altura do container como 100% da altura da tela */
+  position: absolute; /* Posicionamento absoluto, não afeta o fluxo do layout */
+  top: 0; 
+  left: 0;
+  width: 100%; /* O container ocupa toda a largura da tela */
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+  color: #fff212; /* Cor do texto */
+  z-index: 9999; /* Fixa o container acima de outros elementos */
+  display: none; /* Esconde o container até o momento de exibição */
+}
+
+.container-campeao.show {
+  display: flex; /* Mostra o container quando a classe 'show' é adicionada */
+}
+
+.container-campeao h2 {
+  font-size: 80px;
+    color: #fff212;
+    text-shadow: 2px 2px 3px #00b1f2;
+    animation: explosionText 2s ease-out infinite;
+    word-wrap: break-word;
+    text-align: center;
+    padding: 0 10px;
+    max-width: 90%; /* Limita a largura máxima do texto */
+    white-space: normal; /* Permite a quebra de linha normal */
+    overflow: hidden; /* Garante que o texto não ultrapasse o limite do container */
+    text-overflow: ellipsis; /* Adiciona "..." no final se o texto for muito grande */
+}
+  /* Animação de explosão do texto */
+  @keyframes explosionText {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    25% {
+      transform: scale(1.2);
+    }
+    50% {
+      transform: scale(1.5);
+      opacity: 0.8;
+    }
+    75% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @media screen  and (max-width: 1920px){
+    .container{
+      max-width: 1700px;
+       width: 100%;
+       margin: 20px auto 30px auto;
+       overflow: auto;
+       border: 2px solid #fff212;
+       padding: 20px 30px;
+       border-radius: 10px;
+       margin-bottom: 30px;
+       
+   }
+   }
+   @media screen  and (max-width: 1446px){
+    .container{
+      max-width: 1300px;
+       width: 100%;
+       margin: 15px auto 25px auto;
+       overflow: auto;
+       border: 2px solid #fff212;
+       padding: 20px 30px;
+       border-radius: 10px;
+       margin-bottom: 30px;
+       
+   }
+   .container-campeao h2{
+    font-size: 68px;
+   
+  }
+
+   }
+   @media screen  and (max-width: 1200px){
+    .container{
+      max-width: 1100px;
+       width: 100%;
+       margin: 15px auto 25px auto;
+       overflow: auto;
+       border: 2px solid #fff212;
+       padding: 20px 30px;
+       border-radius: 10px;
+       margin-bottom: 30px;
+       
+   }
+   }
+   @media screen  and (max-width: 1025px){
+    .container{
+      max-width: 900px;
+       width: 100%;
+       margin: 15px auto 25px auto;
+       overflow: auto;
+       border: 2px solid #fff212;
+       padding: 20px 30px;
+       border-radius: 10px;
+       margin-bottom: 30px;
+       
+   }
+   .container-campeao h2{
+    font-size: 55px;
+   
+  }
+
+   }
+  @media screen  and (max-width: 881px){
+    .container{
+      max-width: 800px;
+       width: 100%;
+       margin: 10px auto 10px auto;
+       overflow: auto;
+       border: 2px solid #fff212;
+       padding: 10px 10px;
+       border-radius: 10px;
+       margin-bottom: 30px;
+       
+   }
+   .container-campeao h2{
+    font-size: 40px;
+   
+
+  }
+
+   }
+   @media screen  and (max-width: 768px){
+    .container{
+      max-width: 700px;
+      width: 100%;
+      margin: 10px auto 10px auto;
+      overflow: auto;
+      border: 2px solid #fff212;
+      padding: 10px 10px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      
+  }
+  .container-campeao h2{
+    font-size: 35px;
+   
+
+  }
+
+  }
+  @media screen  and (max-width: 360px){
+    .container{
+      max-width: 310px;
+      width: 100%;
+      margin: 10px auto 10px auto;
+      overflow: auto;
+      border: 2px solid #fff212;
+      padding: 10px 10px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      
+  }
+  .container-campeao h2{
+    font-size: 18px;
+   
+
+  }
+
+  }
+  
+  
+   
+  @media screen  and (max-width: 320px){
+    .container{
+      width: 100%;
+      margin: 10px auto 10px auto;
+      overflow: auto;
+      border: 2px solid #fff212;
+      padding: 10px 10px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      
+  }
+  .container-campeao h2{
+    font-size: 18px;
+   
+
+  }
+
+  }
+  
+ 
+  
+  
+  
+  
+  
+ 

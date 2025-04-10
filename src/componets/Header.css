@@ -1,0 +1,199 @@
+.container-header{
+    display: flex;
+    justify-content: center; /* Centraliza todos os itens dentro do contêiner */
+    align-items: center; /* Alinha verticalmente */
+    padding: 10px 20px;
+    
+    
+}
+
+
+.container-header h1{
+    color: #00afef;
+    font-size: 58px;
+    text-shadow: 2px 2px 3px #fff212;
+    width: 100%; /* Garante que o h1 ocupe toda a largura do contêiner */
+    text-align: center; /* Centraliza o texto */
+   
+}
+
+.logo {
+    height: 100px; /* Ajuste o tamanho da logo */
+    width: auto; /* Mantém a proporção da imagem */
+    max-width: 100%;
+    
+   
+  }
+  @media screen  and (max-width: 1920px){
+    .container-header{
+        display: flex;
+        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
+        align-items: center; /* Alinha verticalmente */
+        padding: 10px 10px;
+        
+        
+    }
+    .container-header h1{
+        font-size: 130px;
+        
+          
+    }
+    .logo {
+        height: 200px; /* Ajuste o tamanho da logo */
+        width: auto; /* Mantém a proporção da imagem */
+        max-width: 100%;
+        
+      }
+  }
+  @media screen  and (max-width: 1446px){
+    .container-header{
+        display: flex;
+        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
+        align-items: center; /* Alinha verticalmente */
+        padding: 10px 10px;
+        
+        
+    }
+    .container-header h1{
+        font-size: 100px;
+        
+          
+    }
+    .logo {
+        height: 170px; /* Ajuste o tamanho da logo */
+        width: auto; /* Mantém a proporção da imagem */
+        max-width: 100%;
+        
+      }
+  }
+  @media screen  and (max-width: 1200px){
+    .container-header{
+        display: flex;
+        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
+        align-items: center; /* Alinha verticalmente */
+        padding: 10px 10px;
+        
+        
+    }
+    .container-header h1{
+        font-size: 90px;
+        
+          
+    }
+    .logo {
+        height: 150px; /* Ajuste o tamanho da logo */
+        width: auto; /* Mantém a proporção da imagem */
+        max-width: 100%;
+        
+      }
+  }
+  @media screen  and (max-width: 1025px){
+    .container-header{
+        display: flex;
+        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
+        align-items: center; /* Alinha verticalmente */
+        padding: 10px 10px;
+        
+        
+    }
+    .container-header h1{
+        font-size: 70px;
+        
+          
+    }
+    .logo {
+        height: 120px; /* Ajuste o tamanho da logo */
+        width: auto; /* Mantém a proporção da imagem */
+        max-width: 100%;
+        
+      }
+  }
+  @media screen  and (max-width: 881px){
+    .container-header{
+        display: flex;
+        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
+        align-items: center; /* Alinha verticalmente */
+        padding: 10px 10px;
+        
+        
+    }
+    .container-header h1{
+        font-size: 65px;
+        
+          
+    }
+    .logo {
+        height: 100px; /* Ajuste o tamanho da logo */
+        width: auto; /* Mantém a proporção da imagem */
+        max-width: 100%;
+        
+      }
+  }
+  @media screen  and (max-width: 768px){
+    .container-header{
+        display: flex;
+        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
+        align-items: center; /* Alinha verticalmente */
+        padding: 5px 5px;
+        
+        
+    }
+    .container-header h1{
+        font-size: 55px;
+        
+          
+    }
+    .logo {
+        height: 90px; /* Ajuste o tamanho da logo */
+        width: auto; /* Mantém a proporção da imagem */
+        max-width: 100%;
+        
+      }
+  }
+  @media screen  and (max-width: 360px){
+    .container-header{
+        display: flex;
+        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
+        align-items: center; /* Alinha verticalmente */
+        padding: 2px 2px;
+        
+        
+    }
+    .container-header h1{
+        font-size: 25px;
+        
+          
+    }
+    .logo {
+        height: 50px; /* Ajuste o tamanho da logo */
+        width: auto; /* Mantém a proporção da imagem */
+        max-width: 100%;
+        
+      }
+  }
+  @media screen  and (max-width: 320px){
+    .container-header{
+        display: flex;
+        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
+        align-items: center; /* Alinha verticalmente */
+        padding: 2px 2px;
+        
+        
+    }
+    .container-header h1{
+        font-size: 25px;
+        
+          
+    }
+    .logo {
+        height: 50px; /* Ajuste o tamanho da logo */
+        width: auto; /* Mantém a proporção da imagem */
+        max-width: 100%;
+        
+      }
+
+  }
+   
+ 
+ 
+  

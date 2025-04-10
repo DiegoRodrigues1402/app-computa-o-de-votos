@@ -1,0 +1,105 @@
+.button-container-limpa-finaliza{
+    margin: 15px 0;
+    width: 100%;
+    display: flex; 
+    gap: 10px;
+    justify-content: space-between;
+    
+}
+.limpa,
+.finaliza{
+    width: 20%;
+}
+@media screen  and (max-width: 1025px){
+    .button-container-limpa-finaliza{
+    margin: 15px 0;
+    width: 100%;
+    display: flex; 
+    gap: 10px;
+    justify-content: space-between;
+    
+}
+.limpa,
+.finaliza{
+    width: 20%;
+}
+    
+   }
+   @media screen  and (max-width: 881px){
+    .button-container-limpa-finaliza{
+    margin: 15px 0;
+    width: 100%;
+    display: flex; 
+    gap: 10px;
+    justify-content: space-between;
+    
+}
+.limpa,
+.finaliza{
+    width: 20%;
+}
+   }
+   @media screen  and (max-width: 768px){
+   .button-container-limpa-finaliza{
+    margin: 15px 0;
+    width: 100%;
+    display: flex; 
+    gap: 10px;
+    justify-content: space-between;
+    
+}
+.limpa,
+.finaliza{
+    width: 20%;
+}
+   }
+   @media screen  and (max-width: 360px){
+    .button-container-limpa-finaliza {
+        margin: 10px 0;
+        width: 100%;
+        display: flex;
+        gap: 8px;
+        justify-content: space-between;
+      }
+    
+      .limpa,
+      .finaliza {
+        flex: 1;
+      }
+    
+      .limpa button,
+      .finaliza button {
+        width: 100%;
+        font-size: 12px;       /* Fonte menor */
+        padding: 4px 6px;      /* Menos espaçamento interno */
+        height: 32px;          /* Altura reduzida */
+        box-sizing: border-box;
+        border-radius: 4px;    /* Opcional: bordas mais suaves */
+      }
+    }
+   @media screen and (max-width: 320px) {
+    .button-container-limpa-finaliza {
+      margin: 10px 0;
+      width: 100%;
+      display: flex;
+      gap: 8px;
+      justify-content: space-between;
+    }
+  
+    .limpa,
+    .finaliza {
+      flex: 1;
+    }
+  
+    .limpa button,
+    .finaliza button {
+      width: 100%;
+      font-size: 12px;       /* Fonte menor */
+      padding: 4px 6px;      /* Menos espaçamento interno */
+      height: 32px;          /* Altura reduzida */
+      box-sizing: border-box;
+      border-radius: 4px;    /* Opcional: bordas mais suaves */
+    }
+  }
+  
+  
