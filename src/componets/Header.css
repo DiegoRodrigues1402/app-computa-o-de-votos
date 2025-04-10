@@ -1,144 +1,212 @@
-.container-header {
+.container-header{
     display: flex;
-    justify-content: center; /* Centraliza os itens dentro do contêiner */
+    justify-content: center; /* Centraliza todos os itens dentro do contêiner */
     align-items: center; /* Alinha verticalmente */
     padding: 10px 20px;
-    flex-wrap: wrap; /* Adiciona flex-wrap para quebrar o layout quando necessário */
+    
+    
 }
 
-.container-header h1 {
+
+.container-header h1{
     color: #00afef;
     font-size: 58px;
     text-shadow: 2px 2px 3px #fff212;
     width: 100%; /* Garante que o h1 ocupe toda a largura do contêiner */
     text-align: center; /* Centraliza o texto */
-    margin: 0; /* Remove margens para evitar quebras inesperadas */
+   
 }
 
 .logo {
     height: 100px; /* Ajuste o tamanho da logo */
     width: auto; /* Mantém a proporção da imagem */
     max-width: 100%;
-    max-height: 100px; /* Garante que a altura da logo não ultrapasse o limite */
-}
-
-@media screen and (max-width: 1920px) {
-    .container-header {
+    
+   
+  }
+  @media screen  and (max-width: 1920px){
+    .container-header{
+        display: flex;
         justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
-        padding: 10px;
+        align-items: center; /* Alinha verticalmente */
+        padding: 10px 10px;
+        
+        
     }
-    .container-header h1 {
+    .container-header h1{
         font-size: 130px;
+        
+          
     }
     .logo {
-        height: 200px;
+        height: 200px; /* Ajuste o tamanho da logo */
+        width: auto; /* Mantém a proporção da imagem */
+        max-width: 100%;
+        
+      }
+  }
+  @media screen  and (max-width: 1446px){
+    .container-header{
+        display: flex;
+        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
+        align-items: center; /* Alinha verticalmente */
+        padding: 10px 10px;
+        
+        
     }
-}
-
-@media screen and (max-width: 1446px) {
-    .container-header {
-        justify-content: space-between;
-    }
-    .container-header h1 {
+    .container-header h1{
         font-size: 100px;
+        
+          
     }
     .logo {
-        height: 170px;
+        height: 170px; /* Ajuste o tamanho da logo */
+        width: auto; /* Mantém a proporção da imagem */
+        max-width: 100%;
+        
+      }
+  }
+  @media screen  and (max-width: 1200px){
+    .container-header{
+        display: flex;
+        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
+        align-items: center; /* Alinha verticalmente */
+        padding: 10px 10px;
+        
+        
     }
-}
-
-@media screen and (max-width: 1200px) {
-    .container-header {
-        justify-content: space-between;
-    }
-    .container-header h1 {
+    .container-header h1{
         font-size: 90px;
+        
+          
     }
     .logo {
-        height: 150px;
+        height: 150px; /* Ajuste o tamanho da logo */
+        width: auto; /* Mantém a proporção da imagem */
+        max-width: 100%;
+        
+      }
+  }
+  @media screen  and (max-width: 1025px){
+    .container-header{
+        display: flex;
+        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
+        align-items: center; /* Alinha verticalmente */
+        padding: 10px 10px;
+        
+        
     }
-}
-
-@media screen and (max-width: 1025px) {
-    .container-header {
-        justify-content: space-between;
-    }
-    .container-header h1 {
+    .container-header h1{
         font-size: 70px;
+        
+          
     }
     .logo {
-        height: 120px;
+        height: 120px; /* Ajuste o tamanho da logo */
+        width: auto; /* Mantém a proporção da imagem */
+        max-width: 100%;
+        
+      }
+  }
+  @media screen  and (max-width: 881px){
+    .container-header{
+        display: flex;
+        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
+        align-items: center; /* Alinha verticalmente */
+        padding: 10px 10px;
+        
+        
     }
-}
-
-@media screen and (max-width: 881px) {
-    .container-header {
-        justify-content: space-between;
-    }
-    .container-header h1 {
+    .container-header h1{
         font-size: 65px;
+        
+          
     }
     .logo {
-        height: 100px;
+        height: 100px; /* Ajuste o tamanho da logo */
+        width: auto; /* Mantém a proporção da imagem */
+        max-width: 100%;
+        
+      }
+  }
+  @media screen  and (max-width: 768px){
+    .container-header{
+        display: flex;
+        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
+        align-items: center; /* Alinha verticalmente */
+        padding: 5px 5px;
+        
+        
     }
-}
-
-@media screen and (max-width: 768px) {
-    .container-header {
-        flex-direction: column; /* Empilha os itens verticalmente */
-        justify-content: center;
-        align-items: center;
-        padding: 5px;
-    }
-    .container-header h1 {
+    .container-header h1{
         font-size: 55px;
+        
+          
     }
     .logo {
-        height: 90px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .container-header {
-        flex-direction: column; /* Empilha os itens verticalmente */
-        justify-content: center;
-        align-items: center;
-        padding: 5px;
-    }
-    .container-header h1 {
-        font-size: 20px; /* Ajuste para telas pequenas */
-    }
-    .logo {
-        height: 50px;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .container-header {
-        flex-direction: column; /* Empilha os itens verticalmente */
-        justify-content: center;
-        align-items: center;
-        padding: 2px;
-    }
-    .container-header h1 {
+        height: 90px; /* Ajuste o tamanho da logo */
+        width: auto; /* Mantém a proporção da imagem */
+        max-width: 100%;
+        
+      }
+  }
+  @media screen  and (max-width: 600px){
+    .container-header h1{
         font-size: 20px;
+        
+          
     }
     .logo {
-        height: 50px;
+        height: 50px; /* Ajuste o tamanho da logo */
+        width: auto; /* Mantém a proporção da imagem */
+        max-width: 100%;
+        
+      }
+  }
+  @media screen  and (max-width: 360px){
+    .container-header{
+        display: flex;
+        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
+        align-items: center; /* Alinha verticalmente */
+        padding: 2px 2px;
+        
+        
     }
-}
-
-@media screen and (max-width: 320px) {
-    .container-header {
-        flex-direction: column; /* Empilha os itens verticalmente */
-        justify-content: center;
-        align-items: center;
-        padding: 2px;
+    .container-header h1{
+        font-size: 20px;
+        
+     
     }
-    .container-header h1 {
+    .logo {
+        height: 50px; /* Ajuste o tamanho da logo */
+        width: auto; /* Mantém a proporção da imagem */
+        max-width: 100%;
+        
+      }
+  }
+  @media screen  and (max-width: 320px){
+    .container-header{
+        display: flex;
+        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
+        align-items: center; /* Alinha verticalmente */
+        padding: 2px 2px;
+        
+        
+    }
+    .container-header h1{
         font-size: 25px;
+        
+          
     }
     .logo {
-        height: 50px;
-    }
-}
+        height: 50px; /* Ajuste o tamanho da logo */
+        width: auto; /* Mantém a proporção da imagem */
+        max-width: 100%;
+        
+      }
+
+  }
+   
+ 
+ 
+  
