@@ -1,225 +1,133 @@
-.container-header{
+.container-header {
     display: flex;
-    justify-content: center; /* Centraliza todos os itens dentro do contêiner */
-    align-items: center; /* Alinha verticalmente */
+    justify-content: center;
+    align-items: center;
     padding: 10px 20px;
-    
-    
 }
 
-
-.container-header h1{
+.container-header h1 {
     color: #00afef;
     font-size: 58px;
     text-shadow: 2px 2px 3px #fff212;
-    width: 100%; /* Garante que o h1 ocupe toda a largura do contêiner */
-    text-align: center; /* Centraliza o texto */
-   
+    width: 100%;
+    text-align: center;
 }
 
 .logo {
-    height: 100px; /* Ajuste o tamanho da logo */
-    width: auto; /* Mantém a proporção da imagem */
+    height: 100px;
+    width: auto;
     max-width: 100%;
-    
-   
-  }
-  @media screen  and (max-width: 1920px){
-    .container-header{
-        display: flex;
-        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
-        align-items: center; /* Alinha verticalmente */
-        padding: 10px 10px;
-        
-        
-    }
-    .container-header h1{
-        font-size: 130px;
-        
-          
-    }
-    .logo {
-        height: 200px; /* Ajuste o tamanho da logo */
-        width: auto; /* Mantém a proporção da imagem */
-        max-width: 100%;
-        
-      }
-  }
-  @media screen  and (max-width: 1446px){
-    .container-header{
-        display: flex;
-        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
-        align-items: center; /* Alinha verticalmente */
-        padding: 10px 10px;
-        
-        
-    }
-    .container-header h1{
-        font-size: 100px;
-        
-          
-    }
-    .logo {
-        height: 170px; /* Ajuste o tamanho da logo */
-        width: auto; /* Mantém a proporção da imagem */
-        max-width: 100%;
-        
-      }
-  }
-  @media screen  and (max-width: 1200px){
-    .container-header{
-        display: flex;
-        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
-        align-items: center; /* Alinha verticalmente */
-        padding: 10px 10px;
-        
-        
-    }
-    .container-header h1{
-        font-size: 90px;
-        
-          
-    }
-    .logo {
-        height: 150px; /* Ajuste o tamanho da logo */
-        width: auto; /* Mantém a proporção da imagem */
-        max-width: 100%;
-        
-      }
-  }
-  @media screen  and (max-width: 1025px){
-    .container-header{
-        display: flex;
-        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
-        align-items: center; /* Alinha verticalmente */
-        padding: 10px 10px;
-        
-        
-    }
-    .container-header h1{
-        font-size: 70px;
-        
-          
-    }
-    .logo {
-        height: 120px; /* Ajuste o tamanho da logo */
-        width: auto; /* Mantém a proporção da imagem */
-        max-width: 100%;
-        
-      }
-  }
-  @media screen  and (max-width: 881px){
-    .container-header{
-        display: flex;
-        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
-        align-items: center; /* Alinha verticalmente */
-        padding: 10px 10px;
-        
-        
-    }
-    .container-header h1{
-        font-size: 65px;
-        
-          
-    }
-    .logo {
-        height: 100px; /* Ajuste o tamanho da logo */
-        width: auto; /* Mantém a proporção da imagem */
-        max-width: 100%;
-        
-      }
-  }
-  @media screen  and (max-width: 768px){
-    .container-header{
-        display: flex;
-        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
-        align-items: center; /* Alinha verticalmente */
-        padding: 5px 5px;
-        
-        
-    }
-    .container-header h1{
-        font-size: 55px;
-        
-          
-    }
-    .logo {
-        height: 90px; /* Ajuste o tamanho da logo */
-        width: auto; /* Mantém a proporção da imagem */
-        max-width: 100%;
-        
-      }
-  }
-  @media screen  and (max-width: 600px){
-    .container-header h1{
-        font-size: 45px;
-        
-          
-    }
-    .logo {
-        height: 80px; /* Ajuste o tamanho da logo */
-        width: auto; /* Mantém a proporção da imagem */
-        max-width: 100%;
-        
-      }
-  }
-  @media screen  and (max-width: 480px){
-    .container-header h1{
-        font-size: 32px;
-        
-          
-    }
-    .logo {
-        height: 70px; /* Ajuste o tamanho da logo */
-        width: auto; /* Mantém a proporção da imagem */
-        max-width: 100%;
-        
-      }
-  }
-  @media screen  and (max-width: 360px){
-    .container-header{
-        display: flex;
-        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
-        align-items: center; /* Alinha verticalmente */
-        padding: 2px 2px;
-        
-        
-    }
-    .container-header h1{
-        font-size: 25px;
-        
-     
-    }
-    .logo {
-        height: 50px; /* Ajuste o tamanho da logo */
-        width: auto; /* Mantém a proporção da imagem */
-        max-width: 100%;
-        
-      }
-  }
-  @media screen  and (max-width: 320px){
-    .container-header{
-        display: flex;
-        justify-content: space-between; /* Centraliza todos os itens dentro do contêiner */
-        align-items: center; /* Alinha verticalmente */
-        padding: 2px 2px;
-        
-        
-    }
-    .container-header h1{
-        font-size: 25px;
-        
-          
-    }
-    .logo {
-        height: 50px; /* Ajuste o tamanho da logo */
-        width: auto; /* Mantém a proporção da imagem */
-        max-width: 100%;
-        
-      }
+}
 
-  }
-   
- 
- 
-  
+/* <= 1920px */
+@media screen and (max-width: 1920px) {
+    .container-header {
+        justify-content: space-between;
+        padding: 10px 10px;
+    }
+
+    .container-header h1 {
+        font-size: 130px;
+    }
+
+    .logo {
+        height: 200px;
+    }
+}
+
+/* <= 1446px */
+@media screen and (max-width: 1446px) {
+    .container-header h1 {
+        font-size: 100px;
+    }
+
+    .logo {
+        height: 170px;
+    }
+}
+
+/* <= 1200px */
+@media screen and (max-width: 1200px) {
+    .container-header h1 {
+        font-size: 90px;
+    }
+
+    .logo {
+        height: 150px;
+    }
+}
+
+/* <= 1025px */
+@media screen and (max-width: 1025px) {
+    .container-header h1 {
+        font-size: 70px;
+    }
+
+    .logo {
+        height: 120px;
+    }
+}
+
+/* <= 881px */
+@media screen and (max-width: 881px) {
+    .container-header h1 {
+        font-size: 65px;
+    }
+
+    .logo {
+        height: 100px;
+    }
+}
+
+/* <= 768px */
+@media screen and (max-width: 768px) {
+    .container-header {
+        padding: 5px 5px;
+    }
+
+    .container-header h1 {
+        font-size: 45px;
+    }
+
+    .logo {
+        height: 80px;
+    }
+}
+
+/* <= 600px */
+@media screen and (max-width: 600px) {
+    .container-header h1 {
+        font-size: 35px;
+    }
+
+    .logo {
+        height: 70px;
+    }
+}
+
+/* <= 480px */
+@media screen and (max-width: 480px) {
+    .container-header h1 {
+        font-size: 30px;
+    }
+
+    .logo {
+        height: 60px;
+    }
+}
+
+/* 320px a 360px */
+@media screen and (min-width: 320px) and (max-width: 360px) {
+    .container-header {
+        padding: 2px 2px;
+        justify-content: space-between;
+    }
+
+    .container-header h1 {
+        font-size: 25px;
+    }
+
+    .logo {
+        height: 50px;
+    }
+}

@@ -1,119 +1,65 @@
-
 .footer-container {
     color: #f2f2f2;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 03px;
     width: 100%;
     bottom: 0;
-   
-}
-
-.footer-container  p{
-    margin: 0;
-    font-size: 16px;
-    letter-spacing: 1px;
-    font-weight: 600;
-    
-}
-@media screen  and (max-width: 1025px){
-   .footer-container {
-    color: #f2f2f2;
-    text-align: center;
     padding-top: 20px;
-    padding-bottom: 03px;
-    width: 100%;
-    bottom: 0;
-   
+    padding-bottom: 3px; /* valor base (desktop) */
 }
 
-.footer-container  p{
+.footer-container p {
     margin: 0;
-    font-size: 16px;
     letter-spacing: 1px;
     font-weight: 600;
-    
+    font-size: 16px; /* valor base (desktop) */
 }
-   
-  }
-  @media screen  and (max-width: 881px){
+
+/* <= 1025px */
+@media screen and (max-width: 1025px) {
     .footer-container {
-    color: #f2f2f2;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 03px;
-    width: 100%;
-    bottom: 0;
-   
+        padding-bottom: 20px;
+    }
 }
 
-.footer-container  p{
-    margin: 0;
-    font-size: 16px;
-    letter-spacing: 1px;
-    font-weight: 600;
-    
-}
-  }
-  @media screen  and (max-width: 768px){
-   .footer-container {
-    color: #f2f2f2;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 15px;
-    width: 100%;
-    bottom: 0;
-   
-}
-
-.footer-container  p{
-    margin: 0;
-    font-size: 16px;
-    letter-spacing: 1px;
-    font-weight: 600;
-    
-}
-  }
-  @media screen  and (max-width: 360px){
-   .footer-container {
-    color: #f2f2f2;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    width: 100%;
-    bottom: 0;
-   
-}
-
-.footer-container  p{
-    margin: 0;
-    font-size: 13px;
-    letter-spacing: 1px;
-    font-weight: 600;
-    
-}
-  }
-  @media screen  and (max-width: 320px){
+/* <= 881px */
+@media screen and (max-width: 881px) {
     .footer-container {
-    color: #f2f2f2;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    width: 100%;
-    bottom: 0;
-   
+        padding-bottom: 15px;
+    }
+
+    .footer-container p {
+        font-size: 15px;
+    }
 }
 
-.footer-container  p{
-    margin: 0;
-    font-size: 12px;
-    letter-spacing: 1px;
-    font-weight: 600;
-    
+/* <= 768px */
+@media screen and (max-width: 768px) {
+    .footer-container p {
+        font-size: 14px;
+    }
 }
 
-  }
-   
- 
- 
-  
+/* <= 600px */
+@media screen and (max-width: 600px) {
+    .footer-container {
+        padding-bottom: 10px;
+    }
+
+    .footer-container p {
+        font-size: 13px;
+    }
+}
+
+/* <= 480px */
+@media screen and (max-width: 480px) {
+    .footer-container p {
+        font-size: 12px;
+    }
+}
+
+/* 320px a 360px */
+@media screen and (min-width: 320px) and (max-width: 360px) {
+    .footer-container p {
+        font-size: 10px;
+    }
+}

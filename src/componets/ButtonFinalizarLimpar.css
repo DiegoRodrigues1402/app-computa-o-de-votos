@@ -1,105 +1,54 @@
-.button-container-limpa-finaliza{
-    margin: 15px 0;
-    width: 100%;
-    display: flex; 
-    gap: 10px;
-    justify-content: space-between;
-    
+.button-container-limpa-finaliza {
+  margin: 15px 0;
+  width: 100%;
+  display: flex; 
+  gap: 10px;
+  justify-content: space-between;
 }
+
 .limpa,
-.finaliza{
-    width: 20%;
+.finaliza {
+  width: 20%;
 }
-@media screen  and (max-width: 1025px){
-    .button-container-limpa-finaliza{
-    margin: 15px 0;
-    width: 100%;
-    display: flex; 
-    gap: 10px;
-    justify-content: space-between;
-    
-}
-.limpa,
-.finaliza{
-    width: 20%;
-}
-    
-   }
-   @media screen  and (max-width: 881px){
-    .button-container-limpa-finaliza{
-    margin: 15px 0;
-    width: 100%;
-    display: flex; 
-    gap: 10px;
-    justify-content: space-between;
-    
-}
-.limpa,
-.finaliza{
-    width: 20%;
-}
-   }
-   @media screen  and (max-width: 768px){
-   .button-container-limpa-finaliza{
-    margin: 15px 0;
-    width: 100%;
-    display: flex; 
-    gap: 10px;
-    justify-content: space-between;
-    
-}
-.limpa,
-.finaliza{
-    width: 20%;
-}
-   }
-   @media screen  and (max-width: 360px){
-    .button-container-limpa-finaliza {
-        margin: 10px 0;
-        width: 100%;
-        display: flex;
-        gap: 8px;
-        justify-content: space-between;
-      }
-    
-      .limpa,
-      .finaliza {
-        flex: 1;
-      }
-    
-      .limpa button,
-      .finaliza button {
-        width: 100%;
-        font-size: 12px;       /* Fonte menor */
-        padding: 4px 6px;      /* Menos espaçamento interno */
-        height: 32px;          /* Altura reduzida */
-        box-sizing: border-box;
-        border-radius: 4px;    /* Opcional: bordas mais suaves */
-      }
-    }
-   @media screen and (max-width: 320px) {
-    .button-container-limpa-finaliza {
+
+/* <= 600px */
+@media screen and (max-width: 600px) {
+  .button-container-limpa-finaliza {
       margin: 10px 0;
-      width: 100%;
-      display: flex;
       gap: 8px;
-      justify-content: space-between;
-    }
-  
-    .limpa,
-    .finaliza {
-      flex: 1;
-    }
-  
-    .limpa button,
-    .finaliza button {
-      width: 100%;
-      font-size: 12px;       /* Fonte menor */
-      padding: 4px 6px;      /* Menos espaçamento interno */
-      height: 32px;          /* Altura reduzida */
-      box-sizing: border-box;
-      border-radius: 4px;    /* Opcional: bordas mais suaves */
-    }
   }
-  
-  
+
+  .limpa,
+  .finaliza {
+      flex: 1;
+      width: auto;
+  }
+
+  .limpa button,
+  .finaliza button {
+      width: 100%;
+      font-size: 16px;
+      padding: 4px 6px;
+      height: 40px;
+      box-sizing: border-box;
+      border-radius: 4px;
+  }
+}
+
+/* <= 480px */
+@media screen and (max-width: 480px) {
+  .limpa button,
+  .finaliza button {
+      font-size: 14px;
+      height: 36px;
+  }
+}
+
+/* 320px a 360px */
+@media screen and (min-width: 320px) and (max-width: 360px) {
+  .limpa button,
+  .finaliza button {
+      font-size: 12px;
+      height: 32px;
+  }
+}
