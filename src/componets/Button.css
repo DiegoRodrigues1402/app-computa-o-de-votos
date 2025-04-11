@@ -5,7 +5,7 @@
     border-radius: 5px;
     width: 100%;
     font-size: 18px;
-    color: #fefefe;
+    color: #222;
     font-weight: bold;
     cursor: pointer;
     border: none;
@@ -13,6 +13,8 @@
     
 }
 .button:hover{
-    background-color: #fefefe;
+    background-color: #222;
     color: #fff212;
+    border: 1px solid #fff212;
+
 }
